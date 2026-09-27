@@ -1,0 +1,12 @@
+[package]
+name = "week-32-sol-counter-program"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type=["cdylib","lib"]
+
+[dependencies]
+borsh = "0.10.4"
+borsh-derive = "1.8.1"
+solana-program = "1.18.26"
